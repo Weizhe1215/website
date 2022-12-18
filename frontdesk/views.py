@@ -11,3 +11,5 @@ def signup(request):
 
 def USstock(request):
     return render(request, "3.USstock.html")
+
+
