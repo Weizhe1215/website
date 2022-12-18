@@ -22,7 +22,12 @@
 
     <!-- Animation CSS -->
     <link href="{% static 'assets/css/vendor/aos.css' %}" rel="stylesheet"/>
-
+    <style>
+        .container2 {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
 </head>
 
 <body>
@@ -79,30 +84,33 @@ HEADER
 <!-- Main -->
 <div class="container mw-100" data-aos="fade-up">
     <div class="row justify-content-center">
-        <div class="col-lg-8">
-            <!-- Simple Card -->
-            <div class="card shadow-sm border-0 float-left">
-                <img class="card-img-top" src="{% static 'pic/stock.jpg' %}" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">股市数据（月）</h5>
-                    <p class="card-text text-muted">
-                        美股月度数据
-                    </p>
-                    <a href="#" class="btn btn-info btn-round">了解更多</a>
+        <div class="col-lg-8 align-content-center">
+            <div class="container2">
+                <!-- Simple Card -->
+                <div class="card shadow-sm border-0 float-left">
+                    <img class="card-img-top" src="{% static 'pic/stock.jpg' %}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">股市数据（月）</h5>
+                        <p class="card-text text-muted">
+                            美股月度数据
+                        </p>
+                        <a href="#" class="btn btn-info btn-round">了解更多</a>
+                    </div>
+                </div>
+
+                <!-- Simple Card -->
+                <div class="card shadow-sm border-0 float-right" style="margin-left: 27px">
+                    <img class="card-img-top" src="{% static 'pic/stock.jpg' %}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">股市数据（日）</h5>
+                        <p class="card-text text-muted">
+                            美股每日数据
+                        </p>
+                        <a href="#" class="btn btn-info btn-round">了解更多</a>
+                    </div>
                 </div>
             </div>
 
-            <!-- Simple Card -->
-            <div class="card shadow-sm border-0 float-right" style="margin-left: 27px;margin-bottom: 70px">
-                <img class="card-img-top" src="{% static 'pic/stock.jpg' %}" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">股市数据（日）</h5>
-                    <p class="card-text text-muted">
-                        美股每日数据
-                    </p>
-                    <a href="#" class="btn btn-info btn-round">了解更多</a>
-                </div>
-            </div>
 
             <article>
 
